@@ -1,0 +1,8 @@
+# Global LLM configuration
+[llm] #Qwen:
+model = "qwen-plus-2025-04-28"                                                 # The LLM model to use
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"                             # API endpoint URL
+api_key = "sk-9708b8eba85e497da1d1c04bc3b64e3c"                                                 # Your API key
+max_tokens = 4096                                                  # Maximum number of tokens in the response
+temperature = 0.0                                                  # Controls randomness
+
